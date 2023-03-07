@@ -11,20 +11,23 @@ body{
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-#menu-home{
+#menu-home ul {
     list-style: none;
     padding: 0;
     background-color: rgba(65, 65, 136, 0.651);
 }
-#menu-home li {
+#menu-home ul li {
     display: inline;
 }
-#menu-home li a {
+#menu-home ul li a {
     display: inline;
     color: white;
     padding: 20px;
     display: inline-block;
     text-decoration: none;
-  
+    transition: background .4s;
+}
+#menu-home ul li a:hover {
+    background-color: rgb(74, 74, 197);
 
 }
